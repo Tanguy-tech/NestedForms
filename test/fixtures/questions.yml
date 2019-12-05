@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  survey: one
+  number: 1
+  answered: false
+
+two:
+  survey: two
+  number: 1
+  answered: false
