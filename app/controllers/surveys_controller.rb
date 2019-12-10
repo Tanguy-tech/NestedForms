@@ -10,6 +10,12 @@ class SurveysController < ApplicationController
   # GET /surveys/1
   # GET /surveys/1.json
   def show
+    @survey_id = @survey.id
+    @questions = Question.where(survey_id: @survey_id)
+    @answers = Answer.where(survey_id: @survey).ids
+    puts '='*90
+    puts @answers
+    puts '='*90
   end
 
   # GET /surveys/new
@@ -71,6 +77,6 @@ class SurveysController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def survey_params
-      params.require(:survey).permit(:title, questions_attributes: [:id, :_destroy, :content, :number, :answered])
+      params.require(:survey).permit(:title, questions_attributes: [:id, :_destroy, :content, :answered])
     end
 end

@@ -1,0 +1,8 @@
+<h1>This is all the Questions and to which Survey they belong to</h1>
+<% @questions.each do |q| %>
+<p>
+Question N° <%= q.id %>(id)<br>
+Survey ID : <%= q.survey_id %><br>
+Question Content : <%= q.content %><br>
+</p>
+<% end %>

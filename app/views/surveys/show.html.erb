@@ -1,13 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<p>
   <strong>Title:</strong>
-  <%= @survey.title %>
-  <% @survey.questions.each do |q| %>
-  <%= q.number %><br>
-  <%= q.content %><br>
+  <%= @survey.title %><br>
+  <% @survey.questions.each do |q| %><br>
+    <%= q.content %>
+    <% if q.answered == false %>
+      <%= link_to 'answer question', new_answer_path(q)  %>
+    <% else %>
+      <div style='color: green;'>Answered!</div>
+    <% end %>
+    <br>
   <% end %>
-</p>
 
+  <strong>Average Rating</strong><br>
+  <% average = [] %>
+  <% @survey.answers.each do |a| %>
+    <% average << a.value %>
+  <% end %>
+  <% result = average.sum / average.size.to_f %>
+  <%= result %> /4 <br>
+  <br>
 <%= link_to 'Edit', edit_survey_path(@survey) %> |
 <%= link_to 'Back', surveys_path %>

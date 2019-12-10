@@ -1,0 +1,17 @@
+<%= simple_form_for(@question) do |f| %>
+<%= f.error_notification %>
+
+<ul>
+    <% @question.errors.full_messages.each do |message| %>
+    <li><%= message %></li>
+    <% end %>
+</ul>
+    <tbody class="answers">
+      <%= f.hidden_field :answered, value: 1 %>
+    </tbody>
+  </table>
+
+  <div class="actions">
+    <%= f.button :submit, value: 'Submit Answer' %>
+  </div>
+<% end %>
