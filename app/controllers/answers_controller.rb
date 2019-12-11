@@ -20,9 +20,8 @@ class AnswersController < ApplicationController
     redirect_to survey_path(@survey)
   end
 
-
+  
   private 
-
 
   def answer_params
     params.require(:answer).permit(:value, :question_id, :survey_id)

@@ -13,9 +13,6 @@ class SurveysController < ApplicationController
     @survey_id = @survey.id
     @questions = Question.where(survey_id: @survey_id)
     @answers = Answer.where(survey_id: @survey).ids
-    puts '='*90
-    puts @answers
-    puts '='*90
   end
 
   # GET /surveys/new
