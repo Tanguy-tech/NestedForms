@@ -14,4 +14,4 @@ It creates a scope around a specific model object like ‘form_for’ , but does
 
 
 LINKS:
-🔗 Feel free to contact me at github.com/Tanguy-tech or via linkedin at https://www.linkedin.com/in/tanguybillon/
+🔗 Feel free to contact me at https://github.com/Tanguy-tech or via linkedin at https://www.linkedin.com/in/tanguybillon/
