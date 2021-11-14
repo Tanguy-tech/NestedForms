@@ -3,7 +3,7 @@ application up and running.
 
 👨🏻‍💻 This is the README file for Nested forms in Ruby using Rails framework
 
-Things you may want to cover:
+![](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 
 ⚙️ Ruby version 2.5.1
 
