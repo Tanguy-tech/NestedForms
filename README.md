@@ -15,4 +15,4 @@ It creates a scope around a specific model object like ‘form_for’ , but does
 
 🔗 USEFUL LINKS:
 
-Feel free to contact me at  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanguy-tech) or via linkedin at [![Linkedin](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanguybillon/)
+Feel free to contact me at  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Tanguy-tech) , via linkedin at [![Linkedin](	https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanguybillon/) or through tbillon@student.42lyon.fr
